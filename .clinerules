@@ -1,0 +1,28 @@
+# TurntableAI Project Rules
+
+## Project Structure
+- Next.js App Router pattern is used for routing
+- Source code is in the `src` directory
+- App routes and pages are in `src/app`
+- Public assets are in the `public` directory
+
+## Coding Standards
+- TypeScript is used for all code files
+- React components use functional component pattern with hooks
+- TailwindCSS is used for styling
+- Default component exports are preferred
+
+## Development Workflow
+- Development server uses Turbopack for faster builds (`npm run dev`)
+- ESLint is used for code quality checks (`npm run lint`)
+- Build process uses Next.js build system (`npm run build`)
+
+## File Naming
+- React components use PascalCase (e.g., `ComponentName.tsx`)
+- Utility files use camelCase (e.g., `utilityName.ts`)
+- Next.js special files follow Next.js conventions (`page.tsx`, `layout.tsx`, etc.)
+
+## Memory Bank Maintenance
+- Memory bank files should be updated when significant changes are made to the project
+- `activeContext.md` and `progress.md` should be updated most frequently
+- All memory bank files should be reviewed when significant architectural changes are made 
